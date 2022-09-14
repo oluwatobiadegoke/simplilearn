@@ -1,9 +1,13 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 body {
   background-color: teal;
 }
- {
-  box-sizing: border-box;
-}
+
 .container {
   margin: auto;
   width: 50%;
@@ -11,11 +15,12 @@ body {
   background-color: white;
   box-shadow: 20px 20px 20px 0px rgba(0, 0, 0, 0.7);
 }
+
 input[type="text"],
 input[type="password"] {
-  width: 95%;
+  width: 100%;
   padding: 15px;
-  margin: 5px 22px 0;
+  margin: 5px 0;
   display: inline-block;
   border: none;
   background: whitesmoke;
@@ -25,6 +30,7 @@ input[type="password"]:focus {
   background-color: #ddd;
   outline: none;
 }
+
 .registerbtn {
   background-color: teal;
   color: white;
@@ -34,4 +40,7 @@ input[type="password"]:focus {
   width: 100%;
   margin: auto;
   opacity: 0.8;
+}
+.registerbtn:hover {
+  opacity: 1;
 }
